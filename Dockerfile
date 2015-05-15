@@ -16,7 +16,7 @@ ADD input.txt /mcr-install/input.txt
 
 RUN cd /mcr-install && \
     wget -nv http://www.mathworks.com/supportfiles/MCR_Runtime/R2013a/MCR_R2013a_glnxa64_installer.zip && \
-    unzip MCR_R2013a_glnxa64_installer.zip && \
+    unzip MCR_R2015a_glnxa64_installer.zip && \
     mkdir /opt/mcr && \
     ./install -inputFile input.txt && \
     cd / && \

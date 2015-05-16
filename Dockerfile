@@ -15,7 +15,7 @@ ADD input.txt /mcr-install/input.txt
 # Did this all in one line to avoid bloating the image
 
 RUN cd /mcr-install && \
-    wget -nv http://www.mathworks.com/supportfiles/MCR_Runtime/R2013a/MCR_R2015a_glnxa64_installer.zip && \
+    wget -nv http://uk.mathworks.com/supportfiles/downloads/R2015a/deployment_files/R2015a/installers/glnxa64/MCR_R2015a_glnxa64_installer.zip && \
     unzip MCR_R2015a_glnxa64_installer.zip && \
     mkdir /opt/mcr && \
     ./install -inputFile input.txt && \
